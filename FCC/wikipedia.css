@@ -1,0 +1,19 @@
+.bold{
+  font-weight: bold;
+  color: black !important;
+}
+
+h1{
+  padding-left: 20px;
+}
+
+h4{
+  text-align: center;
+}
+
+#mytable{
+  display: none;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: auto;
+}

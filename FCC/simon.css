@@ -1,0 +1,174 @@
+html{
+	font-family: 'Roboto';
+	background: url('http://bgfons.com/upload/iron_texture637.jpg');
+}
+
+h1{
+	font-size: 350%
+}
+
+#headBox{
+	width: 350px;
+	height: 120px;
+	margin: auto;
+	background: gray;
+	border-radius: 20px;
+	border: 3px solid black;
+	text-align: center;
+}
+
+#simon{
+	width: 500px;
+	margin: auto;
+	padding-top: 50px;
+}
+
+.button{
+	width: 220px;
+	height: 220px;
+	float: left;
+	border: 15px solid black;
+	cursor: pointer;
+	cursor: hand;
+}
+
+#button1{
+	background-color: green;
+	border-top-left-radius: 100%; 
+}
+
+#button1:active{
+	background-color: #85e085;
+}
+
+.roboPress1{
+	background-color: #85e085 !important;
+}
+
+#button2{
+	background-color: red;
+	border-top-right-radius: 100%; 
+}
+
+#button2:active{
+	background-color: #ff9999;
+}
+
+.roboPress2{
+	background-color: #ff9999 !important;
+}
+
+#button3{
+	background-color: yellow;
+	border-bottom-left-radius: 100%; 
+}
+
+#button3:active{
+	background-color: #ffffb3;
+}
+
+.roboPress3{
+	background-color: #ffffb3 !important;
+}
+
+#button4{
+	background-color: blue;
+	border-bottom-right-radius: 100%; 
+}
+
+#button4:active{
+	background-color: #9999ff;
+}
+
+.roboPress4{
+	background-color: #9999ff !important;
+}
+
+#controls{
+	background-color: black;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	left: 150px;
+	top: 150px;
+}
+
+#score{
+	position: relative;
+	left: 60px;
+	top: 30px;
+	width: 80px;
+	height: 75px;
+	font-family: 'Orbitron';
+	background: gray;
+	font-size: 170%;
+	border-radius: 15px;
+	color: white;
+}
+
+p{
+	position:absolute;
+    width: 100%;
+    text-align: center;
+}
+
+#reset{
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; 
+	position: relative;
+	left: 40px;
+	top: 52px;
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	background: red;
+	font-size: 85%;
+	border: 3px solid gray;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.deepButton{
+	border-color: white;
+	box-shadow: inset 2px 2px 2px 1px black;
+}
+
+.moveText{
+	margin-top: 15px;
+}
+
+#reset:active{
+	border-color: white;
+	box-shadow: inset 2px 2px 2px 1px black;
+}
+
+#reset:active p{
+	margin-top: 15px;
+}
+
+#strict{
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; 
+	position: relative;
+	left: 108px;
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	background: yellow;
+	font-size: 85%;
+	border: 3px solid gray;
+	cursor: pointer;
+	cursor: hand;
+}
+
+#strict:active{
+	border-color: white;
+	box-shadow: inset 2px 2px 2px 1px black;
+}
+
+#strict:active p{
+	margin-top: 15px;
+}

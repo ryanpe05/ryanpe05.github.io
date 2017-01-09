@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+html,body{height:100%;}
+
+.calculator{
+  background: #b3b3cc;
+  border: 2px solid #8585ad;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  margin-bottom: auto;
+  border-radius: 20px;
+  box-shadow: 5px 10px 30px 1px #888888, inset -1px -3px 15px .5px #888888;
+}
+
+h2{
+  text-align: center;
+  color: #333300;
+}
+
+body{
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(to bottom right, #c68c53, #dfbf9f) fixed;
+}
+
+#entry{
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  background: #ffff99;
+  opacity: 0.9;
+  box-shadow: inset 1px 3px 5px .5px #888888;
+}
+
+#answer{
+  font-size: 170%;
+  text-align: right;
+  padding-right: 5px;
+  float: right;
+  clear: none;
+}
+
+#history{
+  text-align: left;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  color: #404040;
+}
+
+button{
+  border-radius: 7px;
+  width: 50px;
+  height: 40px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  background: #c68c53;
+}
+
+button:focus{
+  outline: none;
+}
+
+#buttonHolder{
+  margin: 21px;
+}
+
+#fatButton{
+  width: 115px;
+}
+
+#tallButton{
+  position: absolute;
+  margin-top: -55px;
+  margin-left: 8px;
+  height: 95px; 
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+body{
+  font-family: Gloria Hallelujah;
+  text-align: center;
+  background: #696B6F;
+}
+
+.wrapper{
+  margin: 0 auto;
+  width: 500px;
+}
+
+#rest{
+  text-align: center;
+  border-style: solid;
+  border-color: #ff0000;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin: auto;
+  background: #d6c7c7;
+}
+
+#work{
+  text-align: center;
+  border-style: solid;
+  border-color: #ff0000;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  float: right;
+  margin: auto;
+  background: #d6c7c7;
+}
+
+h3{
+  margin-top: 25px;
+}
+
+.start{
+  margin-top: 200px;
+}
+
+#starter{
+  text-align: center;
+  border-style: solid;
+  border-color: #ff0000;
+  border-radius: 20px;
+  width: 300px;
+  height: 110px;
+  margin: auto;
+  background: #d6c7c7;
+}
+
+#starter h2{
+  float: left;
+  padding-left: 200px:
+}
+
+#restText{
+  float: left;
+  margin-top: 25px;
+}
+
+#workText{
+  float: right;
+  margin-top: 25px;
+}

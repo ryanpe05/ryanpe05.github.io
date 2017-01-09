@@ -1,0 +1,89 @@
+html{
+	text-align: center;
+	font-family: 'Arima Madurai';
+	background: #d6ff8c;
+}
+
+h1{
+	padding-top: 20%;
+}
+
+#choose{
+	margin: 0 auto;
+	width: 400px;
+	height: 300px;
+}
+
+#p1{
+	float: left;
+}
+
+#p2{
+	float: right;
+}
+
+#or{
+	margin: auto;
+	clear: none;
+}
+
+#playAgain{
+	margin: auto;
+}
+
+button{
+	width: 100px;
+	height: 50px;
+	border-radius: 10px;
+	background: #ffd68c;
+	border-color: #ffcc6d;
+}
+
+button:focus{
+	outline: none;
+}
+
+.invisible{
+	display: none;
+}
+
+.container{
+	background: #ffd68c;
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	box-shadow: 1px 0px 1px #ffcc6d, 0px 1px #ffa64d,
+	2px 1px 1px #ffcc6d, 1px 2px #ffa64d,
+	3px 2px 1px #ffcc6d, 2px 3px #ffa64d,
+	4px 3px 1px #ffcc6d, 3px 4px #ffa64d,
+	5px 4px 1px #ffcc6d, 4px 5px #ffa64d,
+	6px 5px 1px #ffcc6d, 5px 6px #ffa64d,
+	7px 6px 1px #ffcc6d, 6px 7px #ffa64d;
+}
+
+.square{
+	background: #d6ff8c;
+	width: 100px;
+	height: 100px;
+	margin-top: 25px;
+	margin-right: 10px;
+	margin-left: 20px;
+	border-color: #000000;
+	float: left;
+	box-shadow: inset 1px 0px 1px #ffcc6d, inset 0px 1px #ffa64d,
+	inset 2px 1px 1px #ffcc6d, inset 1px 2px #ffa64d,
+	inset 3px 2px 1px #ffcc6d, inset 2px 3px #ffa64d,
+	inset 4px 3px 1px #ffcc6d, inset 3px 4px #ffa64d,
+	inset 5px 4px 1px #ffcc6d, inset 4px 5px #ffa64d,
+	inset 6px 5px 1px #ffcc6d, inset 5px 6px #ffa64d,
+	inset 7px 6px 1px #ffcc6d, inset 6px 7px #ffa64d;
+	color: black;
+	text-shadow: 1px 0px 1px #ccc, 0px 1px #eee,
+	2px 1px 1px #ccc, 1px 2px #eee,
+	3px 2px 1px #ccc, 2px 3px #eee,
+	4px 3px 1px #ccc, 3px 4px #eee,
+	5px 4px 1px #ccc, 4px 5px #eee,
+	6px 5px 1px #ccc, 5px 6px #eee,
+	7px 6px 1px #ccc, 6px 7px #eee;
+	font-size: 80px;
+}
