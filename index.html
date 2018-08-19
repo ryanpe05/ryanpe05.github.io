@@ -1,36 +1,203 @@
-<html>
-	<head>
-	    <link rel = 'stylesheet' type = "text/css" href = 'index.css'/>
-	    <script src = 'FCC/jquery-3.1.1.js'></script>
-	    <script src = 'index.js'></script>
-	</head>
-	<body>
-		<h1>Ryan Peck's Web Design</h1>
-		<div class = 'holder'>
-			<h2>Selected FreeCodeCamp Projects</h2>
-			<a href = 'FCC/simon.html'>
-				<img src = 'simon.png'>
-			</a>
-			<a href = 'FCC/calculator.html'>
-				<img src = 'calculator.png'>
-			</a>
-			<a href = 'FCC/clock.html'>
-				<img src = 'clock.png'>
-			</a>
-			<a href = 'FCC/Tic-Tac-Toe.html'>
-				<img src = 'ticTac.png'>
-			</a>
-			<a href = 'FCC/wikipedia.html'>
-				<img src = 'wikipedia.png'>
-			</a>
-			<a href = 'FCC/twitch.html'>
-				<img src = 'twitch.png'>
-			</a>
-			<h2>Live Websites</h2>
-			<a id = 'foos' href = 'http://ryanpe05.pythonanywhere.com'>
-				<img src = 'FoosWeb_Mobile.png'>
-			</a>
-			<h3>This website keeps track of foosball game results between my teammates on the Georgia Tech cross country team. It ranks players by Elo score and calculates various other stats. Please do not submit games or add players. This website is live and in use! Made using Python, Flask, and MySQL.</h3>
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="css/demo.css"> <!-- Demo style -->
+  	
+	<title>Ryan's Timeline</title>
+</head>
+<body>
+	<header>
+		<!--"https://codyhouse.co/gem/vertical-timeline/"-->
+		<span class = "title-holder">
+			<img class = "firstPic" src = "img/CapstonePicClose.jpg" alt = "Professional Picture">
+			<h1>Ryan Peck</h1>
+			<img class = "secondPic" src = "img/RunningPicSmall.jpg" alt = "Running Picture">
+		</span>
+	</header>
+
+	<section class="cd-timeline js-cd-timeline">
+		<div class="cd-timeline__container">
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+					<img src="img/cd-icon-location.svg" alt="Location">
+				</div> <!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<h2>Started Grad School at UC Berkeley</h2>
+					<p>Passionate about software and interested in full-time roles in fields including consumer electronics, robotics, and medical devices. Obtaining a Master of Engineering degree in Electrical Engineering and Computer Science. Concentration in Robotics and Embedded Software. Capstone project is working on autonomous driving with Professor Trevor Darrell. Graduation date of May 19, 2019. Continuing to run on the Division 1 Cross Country and Track & Field teams.</p>
+					<span class="cd-timeline__date">Aug 7, 2018</span>
+				</div> <!-- cd-timeline__content -->
+			</div> <!-- cd-timeline__block -->
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+					<img src="img/cd-icon-location.svg" alt="Location">
+				</div> <!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<h2>Consultant for Source14</h2>
+					<p>Worked to develop a prototype for a machine learning camp for students aged 13-18. Content was focused on data organization and machine learning algorithms. Used Python, Jupyter, and scikit-learn. The camp demoed to a small group in August.
+					</p>
+					<a href="#0" class="cd-timeline__read-more">Download Brochure</a>
+					<span class="cd-timeline__date">Aug 2018</span>
+				</div> <!-- cd-timeline__content -->
+			</div> <!-- cd-timeline__block -->
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+					<img src="img/cd-icon-location.svg" alt="Location">
+				</div> <!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<h2>Plant Engineering Intern at Procter and Gamble</h2>
+					<p>Worked at the paper product plant in Oxnard, CA. Designed and executed systems upgrades for environmental and quality projects. Led capital projects aimed at savings values between $200,000 and $300,000 annually. Created model for upcoming plant redesign, resulting in predicted $300,000 savings.
+					</p>
+					<span class="cd-timeline__date">May - Aug 2018</span>
+				</div> <!-- cd-timeline__content -->
+			</div> <!-- cd-timeline__block -->
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+					<img src="img/cd-icon-location.svg" alt="Location">
+				</div> <!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<h2>Freelance Developer for Centralix</h2>
+					<p>Helped develop the front-end authorization pages for Centralix, a cryptocurrency exchange start-up. Pages developed include Login, Signup, Two-Factor Login, and Reset Password. Coding done in JavaScript using the React framework. Involved integration with backend.
+					</p>
+					<a href="https://imgur.com/a/2R6tkHX" class="cd-timeline__read-more">See Some Screenshots</a>
+					<span class="cd-timeline__date">May 2018</span>
+				</div> <!-- cd-timeline__content -->
+			</div> <!-- cd-timeline__block -->
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+					<img src="img/cd-icon-location.svg" alt="Location">
+				</div> <!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<h2>Finished Athletic Career at Georgia Tech</h2>
+					<p>Wrapped things up with a 15th place finish in the 10k at the ACC Outdoor Track and Field Championships. Other notable accomplishments include recording a top 5 Georgia Tech all-time mark in the indoor 5k (14:32) and finishing the outdoor season with a top 200 national Division 1 ranking in the 10k (192nd with a 30:33). Continuing to train for Cal!
+					</p>
+					<a href="https://www.tfrrs.org/athletes/5459796/Georgia_Tech/Ryan_Peck.html" class="cd-timeline__read-more">My Running Profile</a>
+					<span class="cd-timeline__date">May 10, 2018</span>
+				</div> <!-- cd-timeline__content -->
+			</div> <!-- cd-timeline__block -->
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+					<img src="img/cd-icon-location.svg" alt="Location">
+				</div> <!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<h2>Graduated from Georgia Tech with BS in Computer Engineering</h2>
+					<p>Completed degree with a 3.90 GPA. Focused on embedded software, motion control, and signal processing. Additional accomplishments during undergrad include:<br>
+					1. GRE scores: 169 Quantitative, 163 Verbal, 5.0 Analytical<br>
+					2. Georgia FE exam passed February 2018<br>
+					3. Tutored middle school to college students for roughly 250 hours<br>
+					4. TA'd Survey of Calculus for Fall 2016 semester<br>
+					5. Freshman year, participated in Investment Committee looking at Healthcare and Biotech companies<br>
+					</p>
+					<span class="cd-timeline__date">May 5, 2018</span>
+				</div> <!-- cd-timeline__content -->
+			</div> <!-- cd-timeline__block -->
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+					<img src="img/cd-icon-movie.svg" alt="Movie">
+				</div> <!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<h2>Finished Creation of Morse Code to Speech Interpreter</h2>
+					<p>This project was intended to demonstrate embedded systems knowledge. I was personally responsible for writing the majority of the C++ code and the entirety of a bash script that read input from the mbed to the Raspberry Pi
+					</p>
+					<a href="https://os.mbed.com/users/nmanning7/notebook/morse-to-speech/" class="cd-timeline__read-more">Detailed Description Including Demo</a>
+					<span class="cd-timeline__date">Dec 2017</span>
+				</div> <!-- cd-timeline__content -->
+			</div> <!-- cd-timeline__block -->
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+					<img src="img/cd-icon-picture.svg" alt="Picture">
+				</div> <!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<h2>Created Personal Safety Device for GT Capstone</h2>
+					<p>Worked with an interdisciplinary group to develop a wearable safety device and app. Physical device played loud noise and flashed light as deterrent; app sent a distress message to authorities and gave users the option to call an emergency contact. Personally responsible for iOS app development and hardware – software integration. Main personal challenges were: storing and retrieving distress messages from third party server (SendBird) and reliably connecting and enabling communication between users' phones and hardware device.
+					</p>
+					<a href="PocketProtector_Poster_Final.pdf" class="cd-timeline__read-more">Download the Poster</a>
+					<span class="cd-timeline__date">Aug 2017 - May 2018</span>
+				</div> <!-- cd-timeline__content -->
+			</div> <!-- cd-timeline__block -->
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+					<img src="img/cd-icon-location.svg" alt="Location">
+				</div> <!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<h2>Central Engineering Intern at Procter and Gamble</h2>
+					<p>Assembled and programmed a robotic dust control system using RSLogix 5000 controls software. Designed and programmed a camera vision system for package registration and quality assurance. Developed programs for collaborative robot applications. Acquired knowledge of control theory, motion control, and industrial safety practices.
+					</p>
+					<span class="cd-timeline__date">May - Aug 2017</span>
+				</div> <!-- cd-timeline__content -->
+			</div> <!-- cd-timeline__block -->
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+					<img src="img/cd-icon-location.svg" alt="Location">
+				</div> <!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<h2>Started Work on Personal Coding Projects</h2>
+					<p>Outside of school, created web design projects. Highlights include: Find-Me-Food (enable CORS on Chrome), Foosball Ranking Board (previously live but no longer hosted), iOS Investment Tracking App, Simon Says Game
+					</p>
+					<a href="https://ryanpe05.github.io/find-me-food" class="cd-timeline__read-more">Find-Me-Food</a>
+					<p>&nbsp;</p>
+					<a href="index2.html" class="cd-timeline__read-more">Web Design Projects</a>
+					<p>&nbsp;</p>
+					<a href="https://github.com/ryanpe05" class="cd-timeline__read-more">GitHub Profile</a>
+					<span class="cd-timeline__date">Jan 2017</span>
+				</div> <!-- cd-timeline__content -->
+			</div> <!-- cd-timeline__block -->
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+					<img src="img/cd-icon-movie.svg" alt="Movie">
+				</div> <!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<h2>Idea2Prototype Program: Lab of Vladimir Tsukruk</h2>
+					<p>Re-developed stamping nanoimprint lithography for R&D centers and academic labs. Used force sensor and Arduino microcontroller to optimize stamping movement and pressure. Helped design user interface with Python to communicate with Arduino to facilitate use by new users. Personally responsible for communication between Arduino and UI on Raspberry Pi. Resulted in stamping success rate increase from ~30% to ~95%.
+					</p>
+					<a href="https://www.youtube.com/watch?v=xeyGzMIH_zw" class="cd-timeline__read-more">Watch the Demo</a>
+					<span class="cd-timeline__date">Aug - Dec 2016</span>
+				</div> <!-- cd-timeline__content -->
+			</div> <!-- cd-timeline__block -->
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+					<img src="img/cd-icon-location.svg" alt="Location">
+				</div> <!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<h2>Graduated from Wheeler High School Magnet Program</h2>
+					<p>Valedictorian of Class of 2015. 2390 SAT. National Merit Scholar. School record holder in 3200 (9:20) and 5k (15:31).
+					</p>
+					<span class="cd-timeline__date">May 2015</span>
+				</div> <!-- cd-timeline__content -->
+			</div> <!-- cd-timeline__block -->
+
 		</div>
-	</body>
+	</section> <!-- cd-timeline -->
+	
+<script src="js/main.js"></script> <!-- Resource JavaScript -->
+</body>
 </html>
